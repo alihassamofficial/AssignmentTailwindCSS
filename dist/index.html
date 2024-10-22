@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- //<link rel="stylesheet" href="../src/output.css" /> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"
+    crossorigin="anonymous"
+  ></script>
+  </head>
+  <body">
+    <!-- Header Section -->
+    <header class="bg-red-600 w-full fixed z-10">
+      <nav class="container mx-auto flex justify-between items-center h-16">
+        <!-- Logo -->
+        <div class="text-white text-2xl font-bold">
+          <a href="#">Logos</a>
+        </div>
+        <!-- Navigation Links -->
+        <ul class="flex h-full">
+          <li class="h-full">
+            <a href="#_about_section" 
+               class="h-full flex items-center px-4 text-white hover:bg-slate-500 ">
+              About
+            </a>
+          </li>
+          <li class="h-full">
+            <a href="#_work_section" 
+               class="h-full flex items-center px-4 text-white hover:bg-slate-500">
+              Work
+            </a>
+          </li>
+          <li class="h-full">
+            <a href="#_contact_section" 
+               class="h-full flex items-center px-4 text-white  hover:bg-slate-500 ">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-slate-900 h-screen flex justify-center items-center">
+        <div class="text-center">
+            <h1 class="text-6xl font-bold mb-4 text-white">Hey I am Mimic</h1>
+            <p class="text-4xl font-light italic text-red-600">a web developer</p>
+        </div>
+    </section>
+
+    <!-- Project  -->
+    <section id="projects" class="py-16 bg-gray-900 text-white">
+        <h2 class="text-4xl font-bold text-center mb-10">These are some of my projects</h2>
+      
+        <div class="container mx-auto flex flex-wrap justify-center gap-8">
+          <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" target="_blank" class="project project-tile group block rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 w-80">
+            <img class="project-image w-full h-64 object-cover" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg" alt="project">
+            <p class="project-title text-center py-4">
+              <span class="code text-yellow-300">&lt;</span>
+              Tribute Page
+              <span class="code text-yellow-300">/&gt;</span>
+            </p>
+          </a>
+      
+          <a href="https://codepen.io/freeCodeCamp/full/qRZeGZ" target="_blank" class="project project-tile group block rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 w-80">
+            <img class="project-image w-full h-64 object-cover" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png" alt="project">
+            <p class="project-title text-center py-4">
+              <span class="code text-yellow-300">&lt;</span>
+              Random Quote Machine
+              <span class="code text-yellow-300">/&gt;</span>
+            </p>
+          </a>
+      
+          <a href="https://codepen.io/freeCodeCamp/full/wgGVVX" target="_blank" class="project project-tile group block rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 w-80">
+            <img class="project-image w-full h-64 object-cover" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png" alt="project">
+            <p class="project-title text-center py-4">
+              <span class="code text-yellow-300">&lt;</span>
+              JavaScript Calculator
+              <span class="code text-yellow-300">/&gt;</span>
+            </p>
+          </a>
+      
+          <a href="https://codepen.io/freeCodeCamp/full/mVEJag" target="_blank" class="project project-tile group block rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 w-80">
+            <img class="project-image w-full h-64 object-cover" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg" alt="project">
+            <p class="project-title text-center py-4">
+              <span class="code text-yellow-300">&lt;</span>
+              Map Data Across the Globe
+              <span class="code text-yellow-300">/&gt;</span>
+            </p>
+          </a>
+      
+          <a href="https://codepen.io/freeCodeCamp/full/wGqEga" target="_blank" class="project project-tile group block rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 w-80">
+            <img class="project-image w-full h-64 object-cover" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png" alt="project">
+            <p class="project-title text-center py-4">
+              <span class="code text-yellow-300">&lt;</span>
+              Wikipedia Viewer
+              <span class="code text-yellow-300">/&gt;</span>
+            </p>
+          </a>
+      
+          <a href="https://codepen.io/freeCodeCamp/full/KzXQgy" target="_blank" class="project project-tile group block rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 w-80">
+            <img class="project-image w-full h-64 object-cover" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png" alt="project">
+            <p class="project-title text-center py-4">
+              <span class="code text-yellow-300">&lt;</span>
+              Tic Tac Toe Game
+              <span class="code text-yellow-300">/&gt;</span>
+            </p>
+          </a>
+        </div>
+      
+        <div class="text-center mt-8">
+          <a href="https://codepen.io/FreeCodeCamp/" class="btn btn-show-all inline-block bg-red-600 text-white py-2 px-4 rounded hover:bg-red-700 transition-colors duration-300">
+            Show all<i class="fas fa-chevron-right ml-2"></i>
+          </a>
+        </div>
+      </section>
+      
+      
+
+    <!-- Call To Action -->
+    <section class="bg-gray-700 h-screen flex justify-center items-center">
+        <div class="text-center">
+            <h1 class="text-6xl font-bold mb-4 text-white">Let's work together...</h1>
+            <p class="text-xl font-light italic text-white">How do you take your coffee?</p>
+
+            <ul class="flex justify-center space-x-8 mt-8">
+                <li class="group">
+                  <a href="#" class="flex flex-row items-center text-white">
+                    <i class="fab fa-facebook-f text-3xl group-hover:translate-y-1 transition-transform duration-300"></i>
+                    <span class="ml-2 group-hover:translate-y-1 transition-transform duration-300">Facebook</span>
+                  </a>
+                </li>
+                <li class="group">
+                  <a href="#" class="flex flex-row items-center text-white">
+                    <i class="fab fa-twitter text-3xl group-hover:translate-y-1 transition-transform duration-300"></i>
+                    <span class="ml-2 group-hover:translate-y-1 transition-transform duration-300">Twitter</span>
+                  </a>
+                </li>
+                <li class="group">
+                  <a href="#" class="flex flex-row items-center text-white">
+                    <i class="fab fa-linkedin-in text-3xl group-hover:translate-y-1 transition-transform duration-300"></i>
+                    <span class="ml-2 group-hover:translate-y-1 transition-transform duration-300">LinkedIn</span>
+                  </a>
+                </li>
+                <li class="group">
+                  <a href="mailto:example@email.com" class="flex flex-row items-center text-white">
+                    <i class="fas fa-envelope text-3xl group-hover:translate-y-1 transition-transform duration-300"></i>
+                    <span class="ml-2 group-hover:translate-y-1 transition-transform duration-300">Email</span>
+                  </a>
+                </li>
+                <li class="group">
+                  <a href="tel:+123456789" class="flex flex-row items-center text-white">
+                    <i class="fas fa-phone text-3xl group-hover:translate-y-1 transition-transform duration-300"></i>
+                    <span class="ml-2 group-hover:translate-y-1 transition-transform duration-300">Call</span>
+                  </a>
+                </li>
+              </ul>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-slate-900 border-t-4 border-red-600">
+        <div class="container mx-auto flex justify-between py-9 text-white">
+            <p>This is just a fake portfolio. All the projects and contact details given are not real.</p>
+            <p>© Created for freeCodeCamp</p>
+        </div>
+    </footer>
+  </body>
+</html>
